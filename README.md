@@ -128,3 +128,15 @@ According to the SLE-2 report, AI tools were used to help write the maze generat
 ## Key Takeaway
 
 The experiment demonstrates how the choice of search strategy can affect runtime and the number of explored states even when the final solution path is the same.
+
+
+---
+
+## SLE-3: Full C4 Architecture
+
+SLE-3 extends this BFS/DFS maze system into a complete four-level C4 architecture:
+
+- [SLE3_ARCHITECTURE.md](SLE3_ARCHITECTURE.md) — complete submission content
+- [SLE3_C4_DIAGRAMS.md](SLE3_C4_DIAGRAMS.md) — C4 Level 1–4 diagrams
+
+The architecture covers Context, Container, Component, and Code levels and is directly connected to the SLE-2 implementation and profiling results.
